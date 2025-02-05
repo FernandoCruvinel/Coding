@@ -1,0 +1,8 @@
+age = 17
+possui_carteira = True
+
+if (age >= 18) and possui_carteira: 
+    print("allowed to drive") 
+elif possui_carteira: 
+    print("Only have underage permission. Not allowed to drive until 18th birthday")
+else: print("not allowed to drive")
